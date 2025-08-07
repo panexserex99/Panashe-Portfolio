@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panashe Seremani - Digital Marketer & Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo" onclick="scrollToSection('home')">
+                <h2>Panashe Seremani</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" onclick="scrollToSection('home')">Home</a>
+                <a href="#about" class="nav-link" onclick="scrollToSection('about')">About</a>
+                <a href="#projects" class="nav-link" onclick="scrollToSection('projects')">Projects</a>
+                <a href="#resume" class="nav-link" onclick="scrollToSection('resume')">Resume</a>
+                <a href="#contact" class="nav-link" onclick="scrollToSection('contact')">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blur Overlay -->
+    <div class="blur-overlay" id="blur-overlay"></div>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-container">
+            <div class="home-content">
+                <div class="typing-container">
+                    <h1 id="typing-text"></h1>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="home-description">Passionate about creating impactful digital experiences and helping businesses grow through strategic marketing and innovative design solutions.</p>
+                <div class="home-buttons">
+                    <button class="btn btn-primary pulse" onclick="scrollToSection('contact')">
+                        <i class="fas fa-handshake"></i> Hire Me
+                    </button>
+                    <a href="panashe marketing specialist.pdf">
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Download CV
+                    </button>
+                    </a>
+                </div>
+            </div>
+            <div class="home-visual">
+                <div class="floating-elements">
+                    <div class="floating-element"></div>
+                    <div class="floating-element"></div>
+                    <div class="floating-element"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                   
+                        <img src="C:\Users\uncommonstudent\OneDrive\Desktop\panashe-portfolio\pp.png" class="img1" weight="100%" height="100%"  alt="about">
+                    
+                </div>
+                <div class="about-text">
+                    <div class="about-description">
+                        <p>I am a passionate digital marketer with hands-on experience in the dynamic world of digital marketing. Currently pursuing my Digital Marketing Certificate at Uncommon.org. I'm constantly expanding my knowledge and skills in this ever-evolving field.</p>
+                        
+                        <div class="about-more" id="about-more">
+                            <p>My journey in digital marketing has been complemented by crash courses in design and software development, giving me a unique perspective on creating comprehensive digital solutions. I believe in the power of combining creative design with strategic marketing to deliver exceptional results.</p>
+                            
+                            <p>As a scratch instructor, I enjoy sharing knowledge and helping others learn new skills. My diverse background allows me to approach projects from multiple angles, ensuring innovative and effective solutions for every challenge.</p>
+                            
+                            <p>I'm passionate about staying up-to-date with the latest trends in digital marketing, from social media strategies to SEO optimization, and I'm always eager to take on new challenges that push the boundaries of what's possible in the digital space.</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline" id="read-more-btn" onclick="toggleReadMore()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Recent Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                      
+                           <img src="portifolio pic.png" class="img2"  alt="project">
+                        
+                    </div>
+                    <div class="project-content">
+                        <h3>Digital Marketing Campaign</h3>
+                        <p>Comprehensive social media marketing strategy that increased engagement</p>
+                        <div class="project-tags">
+                            <a href="https://www.canva.com/design/DAGl7PBkWJ4/8PqvVJfzzmEZBOPNWbkH2A/edit?utm_content=DAGl7PBkWJ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                            <span class="tag">View project</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="project-card">
+    <div class="project-image">
+        <img src="WhatsApp Image 2025-07-31 at 15.53.40_942772d4.jpg" alt="project2" class="img3">
+    </div>
+    <div class="project-content">
+        <h3>Personal Brand Project</h3>
+        <p>Built PulsePoint to showcase my digital marketing skills through bold visuals and targeted content for small businesses.</p>
+        <div class="project-tags">
+            <a href="https://www.facebook.com/PulsePointMarketing$" target="_blank">
+                <span class="tag">View project</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                       <img src="ezee klee.png" alt="project3" class="img4">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Website</h3>
+                        <p>Developed and optimized an e-commerce platform with integrated marketing tools</p>
+                        <div class="project-tags">
+                            <a href="https://www.canva.com/design/DAGt-SEKd8U/H-XOX2j-85NhDmZf2GaXgA/edit?utm_content=DAGt-SEKd8U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                            <span class="tag">View Project</span>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-buttons">
+                    <button class="resume-btn active" onclick="toggleResumeSection('education')">
+                        <i class="fas fa-graduation-cap"></i> Education
+                    </button>
+                    <button class="resume-btn" onclick="toggleResumeSection('skills')">
+                        <i class="fas fa-tools"></i> Skills
+                    </button>
+                    <button class="resume-btn" onclick="toggleResumeSection('experience')">
+                        <i class="fas fa-briefcase"></i> Experience
+                    </button>
+                </div>
+
+                <div class="resume-sections">
+                    <div class="resume-section-content active" id="education">
+                        <div class="resume-item">
+                            <h3>Digital Marketing Certificate</h3>
+                            <p class="resume-institution">Uncommon.org</p>
+                            <p class="resume-date">2024 - Present</p>
+                            <p class="resume-description">Comprehensive program covering digital marketing strategies, analytics, social media marketing, and campaign optimization.</p>
+                        </div>
+                        <div class="resume-item">
+                            <h3>Design Crash Course</h3>
+                            <p class="resume-institution">Self-Directed Learning</p>
+                            <p class="resume-date">2024</p>
+                            <p class="resume-description">Intensive course covering UI/UX design principles, graphic design, and brand identity creation.</p>
+                        </div>
+                        <div class="resume-item">
+                            <h3>Software Development Crash Course</h3>
+                            <p class="resume-institution">Self-Directed Learning</p>
+                            <p class="resume-date">2024</p>
+                            <p class="resume-description">Fundamentals of web development, programming concepts, and modern development tools.</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-section-content" id="skills">
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h3>Digital Marketing</h3>
+                                <ul>
+                                    <li>Social Media Marketing</li>
+                                    <li>Content Strategy</li>
+                                    <li>SEO Optimization</li>
+                                    <li>Google Analytics</li>
+                                    <li>Email Marketing</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Design</h3>
+                                <ul>
+                                    <li>UI/UX Design</li>
+                                    <li>Graphic Design</li>
+                                    <li>Brand Identity</li>
+                                    <li>Adobe Creative Suite</li>
+                                    <li>Figma</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Development</h3>
+                                <ul>
+                                    <li>HTML & CSS (basic structure and styling of websites)</li>
+                                    <li>JavaScript (intro to interactivity)</li>
+                                    <li>Python (beginner level – scripting, basic projects)</li>
+                                    <li>Basic Programming</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section-content" id="experience">
+                        <div class="resume-item">
+                            <h3>Digital Marketing Specialist</h3>
+                            <p class="resume-institution">Freelance</p>
+                            <p class="resume-date">2025 Jan - Present</p>
+                            <p class="resume-description">Developed and executed digital marketing campaigns for various clients, focusing on social media growth, content creation, and brand awareness.</p>
+                        </div>
+                        <div class="resume-item">
+                            <h3>Scratch Programming Instructor</h3>
+                            <p class="resume-institution">Community Education</p>
+                            <p class="resume-date">2024 - Present</p>
+                            <p class="resume-description">Teaching programming fundamentals to beginners using Scratch, developing curriculum and educational materials.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>Ready to take your digital presence to the next level? I'd love to hear about your project and discuss how we can achieve your goals together.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>0718644197 / 0773160534</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>panasheseremani99@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Available for Remote Work</span>
+                        </div>
+                    </div>
+                </div>
+    <form class="contact-form" method="POST" action="https://formsubmit.co/panasheseremani99@gmail.com">
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Full Name" required>
+  </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Email Address" required>
+  </div>
+  <div class="form-group">
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+  </div>
+  <div class="form-group">
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  </div>
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://your-portfolio-site.com/thank-you.html">
+  <button type="submit" class="btn btn-primary">
+    <i class="fas fa-paper-plane"></i> Send Message
+  </button>
+</form>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Panashe B Seremani. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://wa.me/263718644197" target="_blank" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/panashe-seremani" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/panashe_seremani" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com/panashe.seremani" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="tel:+263718644197" class="social-link">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
