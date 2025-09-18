@@ -1,6 +1,6 @@
 // Typing animation
 const typingText = document.getElementById("typing-text")
-const textToType = "Hi, I'm Panashe Bradley Seremani, a passionate Digital Marketer, creative Designer."
+const textToType = "Hie, I'm Panashe Bradley Seremani, a passionate Digital Marketer and creative Designer."
 let i = 0
 
 function typeWriter() {
